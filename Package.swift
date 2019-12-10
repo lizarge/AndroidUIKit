@@ -7,7 +7,7 @@ let package = Package(
         .library(name: "AndroidUIKit", targets: ["AndroidUIKit"])
         ],
     dependencies: [
-        .package(url: "https://github.com/lizarge/Android.git", .branch("dasd"))
+        .package(url: "https://github.com/lizarge/Android.git", .branch("lizarge-patch-1"))
     ],
     targets: [
         .target(
